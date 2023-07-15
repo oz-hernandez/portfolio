@@ -40,7 +40,7 @@
 	var sections = $("section");
 	var navigation_links = $("#nav-wrap a");
 
-	sections.click({
+	sections.waypoint({
 
       handler: function(event, direction) {
 
